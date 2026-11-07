@@ -33,7 +33,101 @@
                 Input desactivado
                 <input disabled placeholder="Input desativado" type="text" />
             </label>
+
+             <label>
+                Input ( number)
+                <input placeholder="Edad Ej. 10" type="number" min="01" max="20" />
+            </label>
+            
+            <label>
+                Input (Correo)
+                <input placeholder="Correo Ej. correo@gmai.com" type="email"  />
+            </label>
+
+            <label>
+                Input (Rango)
+                <input type="range" min="0" max="100" step="10" />
+            </label>
+
+             <label>
+                Input (telefono)
+                <input type="tel" placeholder=" Ej +51 935455112" />
+            </label>
+
+              <label>
+                Input (url)
+                <input type="url" placeholder=" Ej misitio.com" />
+            </label>
+
+             <label>
+                Input (password)
+                <input type="password" placeholder="contraseña" />
+            </label>
+
+               <label>
+                Input (tipo color)
+                <input type="color" />
+            </label>
+
+             <label>
+                Input (tipo búsqueda)
+                <input type="search" placeholder="Busca lo que quieras" />
+            </label>
+
+            <label>
+                Input (tipo archivo - seleccionar un archivo a la vez) Ej png
+                <input type="file" accept=".png" />
+            </label>
+
+            <label>
+                Input (tipo archivo - seleccionar múltiples archivos a la vez) Ej png
+                <input type="file" accept=".png" multiple />
+
+                <input type="hidden" value="datos ocultos">
+                
+                <input type="submit" value="guardar">
+            </label>
         </form>
+
+    <form>
+    <h2> Inputs tipo fecha</h2>
+    <label>
+        Input Fecha y hora
+        <input type="datetime-local" /> 
+    </label>
+
+     <label>
+        Input Fecha
+        <input type="date" /> 
+    </label>
+
+    <label>
+        Input hora
+        <input type="time" /> 
+    </label>
+
+    <label>
+        Input Semana
+        <input type="week" /> 
+    </label>
+
+    <label>
+        Input mes
+        <input type="month" /> 
+    </label>
+
+    <input type="submit" value="Enviar">
+    </form>
+
+
+    <h2>Ahora veremos area de texto</h2>
+    <form>
+    <label>
+        <textarea placeholder="Escribe algo sobre ti" rows="4" cols="4"> Hola a todos </textarea>
+    
+    </label>
+
+    </form>
     </main>
 </body>
 </html>
