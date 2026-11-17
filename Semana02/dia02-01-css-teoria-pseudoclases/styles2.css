@@ -1,8 +1,0 @@
-button {
-  background-color: tomato;
-}
-
-button:hover {
-  background-color: seagreen;
-  cursor: pointer;
-}
